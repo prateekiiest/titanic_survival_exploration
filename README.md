@@ -60,3 +60,6 @@ First Create an Issue and state your contribution.If approved you are welcome to
 
 
 #### Happy Coding                                                                                           -- Prateek Chanda
+
+
+<a href="https://github.com/prateekiiest/titanic_survival_exploration"><img style="position: absolute; top: 0; left: 0; border: 0;" src="http://beyondthestatic.github.io/jquery.beyondsocial.js/img/fork-me-github.jpg" alt=" Fork this repo" data-canonical-></a>
