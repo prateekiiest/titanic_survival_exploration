@@ -52,3 +52,11 @@ The dataset used in this project is included as `titanic_data.csv`. This dataset
 - `fare` ? Passenger Fare
 - `cabin` ? Cabin
 - `embarked` ? Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
+
+## Contribution
+
+There is isn't much to contribute to, but still if you want to suggest a new algorithm(a better one whuch might give a better accuracy) then you are welcome. 
+First Create an Issue and state your contribution.If approved you are welcome to send a PR. 
+
+
+#### Happy Coding                                                                                           -- Prateek Chanda
