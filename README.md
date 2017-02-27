@@ -1,11 +1,23 @@
-### Fork this repo to contribute
+## Fork me on Github
 
 <a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://help.github.com/assets/images/site/fork-a-repo.gif" alt=" Fork this repo" data-canonical-></a>
 
-# titanic_survival_exploration
+
+## Titanic_Survival_Exploration
+
 ### This repository contains project file for Project 0 - Titanic Survival Exploration as part of Udacity's Machine Learning Nanodegree.
 
 ### Description
+
+>The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew.  This sensational tragedy shocked the international community and led to better safety regulations for ships.
+
+>One of the reasons that the shipwreck led to such loss of life was that there were not enough lifeboats for the passengers and crew.  Although there was some element of luck involved in surviving the sinking, some groups of people were more likely to survive than others, such as women, children, and the upper-class.
+
+>In this problem, we ask you to complete the analysis of what sorts of people were likely to survive.  In particular, we ask you to apply the tools of machine learning to predict which passengers survived the tragedy.
+
+
+
+
 In this optional project, you will create decision functions that attempt to predict survival outcomes from the 1912 Titanic disaster based on each passenger’s features, such as sex and age.Start with a simple algorithm and increase its complexity until you are able to accurately predict the outcomes for at least 80% of the passengers in the provided data. This project will introduce you to some of the concepts of machine learning as you start the Nanodegree program.
 
 
@@ -27,6 +39,26 @@ Udacity recommends our students install [Anaconda](https://www.continuum.io/down
 ### Code
 
 Template code is provided in the notebook `titanic_survival_exploration.ipynb` notebook file. Additional supporting code can be found in `titanic_visualizations.py`. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project.
+
+#### This Notebook will show basic examples of:
+#### Data Handling
+*   Importing Data with Pandas
+*   Cleaning Data
+*   Exploring Data through Visualizations with Matplotlib
+
+#### Data Analysis
+*    Supervised Machine learning Techniques:
+    +   Logit Regression Model
+    +   Plotting results
+    +   Support Vector Machine (SVM) using 3 kernels
+    +   Basic Random Forest
+    +   Plotting results
+
+#### Valuation of the Analysis
+*   K-folds cross validation to valuate results locally
+*   Output the results from the IPython Notebook to Kaggle
+
+
 
 ### Run
 
@@ -57,6 +89,13 @@ The dataset used in this project is included as `titanic_data.csv`. This dataset
 
 There is isn't much to contribute to, but still if you want to suggest a new algorithm(a better one whuch might give a better accuracy) then you are welcome. 
 First Create an Issue and state your contribution.If approved you are welcome to send a PR. 
+Suggestions are welcome on how to further increase the accuracy of the model.
+
+### Some Video Resources
+- ![Coursera](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning)
+- ![Standford](https://www.youtube.com/watch?v=UzxYlbK2c7E)
+- ![Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
+
 
 
 #### Happy Coding                                                                                           -- Prateek Chanda
