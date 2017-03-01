@@ -85,6 +85,9 @@ The dataset used in this project is included as `titanic_data.csv`. This dataset
 - `cabin` ? Cabin
 - `embarked` ? Port of Embarkation (C = Cherbourg; Q = Queenstown; S = Southampton)
 
+## Results
+ Check here [Udacity Reviews](https://github.com/prateekiiest/titanic_survival_exploration/blob/master/Udacity_Reviews_titanic.pdf)
+
 ## Contribution
 
 There is isn't much to contribute to, but still if you want to suggest a new algorithm(a better one whuch might give a better accuracy) then you are welcome. 
