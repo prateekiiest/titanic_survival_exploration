@@ -1,9 +1,9 @@
-## Fork me on Github
-
-<a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://help.github.com/assets/images/site/fork-a-repo.gif" alt=" Fork this repo" data-canonical-></a>
+# Titanic_Survival_Exploration
 
 
-## Titanic_Survival_Exploration
+<a href="https://github.com/prateekiiest/boston_housing"><img style="position: relative; top: 0; left: 0; border: 0;" src="https://68.media.tumblr.com/38ae897f20630ef88e6484dea00db3b3/tumblr_mm8fhitR3u1rwwvg9o1_500.gif" alt=" Fork this repo" data-canonical-></a>
+
+
 
 ### This repository contains project file for Project 0 - Titanic Survival Exploration as part of Udacity's Machine Learning Nanodegree.
 
@@ -100,5 +100,8 @@ Suggestions are welcome on how to further increase the accuracy of the model.
 
 #### Happy Coding                                                                                           -- Prateek Chanda
 
+## Fork me on Github
 
-<a href="https://github.com/prateekiiest/titanic_survival_exploration"><img style="position: absolute; top: 0; left: 0; border: 0;" src="http://beyondthestatic.github.io/jquery.beyondsocial.js/img/fork-me-github.jpg" alt=" Fork this repo" data-canonical-></a>
+<a href="https://github.com/prateekiiest/boston_housing"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://help.github.com/assets/images/site/fork-a-repo.gif" alt=" Fork this repo" data-canonical-></a>
+
+
