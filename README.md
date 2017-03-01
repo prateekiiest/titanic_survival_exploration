@@ -92,9 +92,9 @@ First Create an Issue and state your contribution.If approved you are welcome to
 Suggestions are welcome on how to further increase the accuracy of the model.
 
 ### Some Video Resources
-- ![Coursera](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning)
-- ![Standford](https://www.youtube.com/watch?v=UzxYlbK2c7E)
-- ![Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
+- [ ] [Coursera Lectures](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning)
+- [ ] [Standford Lectures](https://www.youtube.com/watch?v=UzxYlbK2c7E)
+- [ ] [Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
 
 
 
