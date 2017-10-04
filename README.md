@@ -90,9 +90,7 @@ The dataset used in this project is included as `titanic_data.csv`. This dataset
 
 ## Contribution
 
-There is isn't much to contribute to, but still if you want to suggest a new algorithm(a better one whuch might give a better accuracy) then you are welcome. 
-First Create an Issue and state your contribution.If approved you are welcome to send a PR. 
-Suggestions are welcome on how to further increase the accuracy of the model.
+See CONTRIBUTING.md
 
 ### Some Video Resources
 - [ ] [Coursera Lectures](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning)
