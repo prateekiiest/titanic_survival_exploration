@@ -94,6 +94,23 @@ There is isn't much to contribute to, but still if you want to suggest a new alg
 First Create an Issue and state your contribution.If approved you are welcome to send a PR. 
 Suggestions are welcome on how to further increase the accuracy of the model.
 
+#### Fork the Repo 
+  - In the top-right corner of the page, click Fork.
+#### Create a Branch
+```sh
+git checkout -b <branch name>
+``` 
+#### Push Changes to Master Repo
+If you've cloned this repo
+```sh
+git push origin master
+```
+If you've forked and then cloned your fork
+```sh
+git remote add <remote name> https://github.com/prateekiiest/titanic_survival_exploration.git
+git push <remote name> master
+```
+
 ### Some Video Resources
 - [ ] [Coursera Lectures](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning)
 - [ ] [Standford Lectures](https://www.youtube.com/watch?v=UzxYlbK2c7E)
