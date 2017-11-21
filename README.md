@@ -7,6 +7,17 @@
 
 ### This repository contains project file for Project 0 - Titanic Survival Exploration as part of Udacity's Machine Learning Nanodegree.
 
+---------------------------------------------------------------------------------
+
+### KWOC
+
+We are glad to partner with IIT Kharagpur as a part of the Kharagpur Winter of Code. We are proud to host this Open Source event during the winter months and we hope you have a great winter this year.
+
+See Project Ideas [here](https://github.com/prateekiiest/titanic_survival_exploration/wiki/Winter-of-Code-Project)  and application procedure [here](https://github.com/prateekiiest/titanic_survival_exploration/wiki/Winter-of-Code-Application)
+
+-------------------------------------------------------------------------
+
+
 ### Description
 
 >The sinking of the RMS Titanic is one of the most infamous shipwrecks in history.  On April 15, 1912, during her maiden voyage, the Titanic sank after colliding with an iceberg, killing 1502 out of 2224 passengers and crew.  This sensational tragedy shocked the international community and led to better safety regulations for ships.
