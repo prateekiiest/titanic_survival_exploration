@@ -13,7 +13,9 @@
 
 We are glad to partner with IIT Kharagpur as a part of the Kharagpur Winter of Code. We are proud to host this Open Source event during the winter months and we hope you have a great winter this year.
 
-See Project Ideas [here](https://github.com/prateekiiest/titanic_survival_exploration/wiki/Winter-of-Code-Project)  and application procedure [here](https://github.com/prateekiiest/titanic_survival_exploration/wiki/Winter-of-Code-Application)
+See Project Ideas [here](https://github.com/prateekiiest/titanic_survival_exploration/wiki/Winter-of-Code-Project)  and application procedure [here](https://github.com/prateekiiest/titanic_survival_exploration/wiki/Winter-of-Code-Application).
+
+Join Slack channel using this [link](https://join.slack.com/t/titanic-survival/shared_invite/enQtMjc1NDkyMzg1OTcyLTM0M2ZhOGE0YzA4MjQ0NmNjYzBiMTI5ZDUyZjJiMGVkYjdlMWNhOWNkMWU0YjA0NDI2MmNmYjk3MzU0MmM3N2I)
 
 -------------------------------------------------------------------------
 
