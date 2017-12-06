@@ -20,6 +20,7 @@ train_data = train_data.dropna()
 x0 = np.array(train_data[train_data['Survived']==0]['Age'])
 x1 = np.array(train_data[train_data['Survived']==1]['Age'])
 
+
 fig1 = plt.figure()
 plt.hist(x=[x0,x1],bins = 20,stacked=True, label=['Died','Survived'])
 plt.xlabel('Age')
