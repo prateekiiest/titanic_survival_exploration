@@ -23,11 +23,11 @@ x1 = np.array(train_data[train_data['Survived']==1]['Age'])
 fig1 = plt.figure()
 plt.hist(x=[x0,x1],bins = 20,stacked=True, label=['Died','Survived'])
 plt.xlabel('Age')
-plt.ylabel('No of passengers') 
+plt.ylabel('No of passengers')
 plt.title('Stacked Histogram on Age')
 plt.legend()
 #plt.show()
-plt.savefig('plots/Age_survival_distribution.png')
+plt.savefig('plots/Age_survival_distribution.png',bbox_inches='tight')
 
 # separating features and labels
 X = train_data.drop('Survived',axis=1)
@@ -55,8 +55,7 @@ decision_tree.fit(X, Y)
 acc_decision_tree = round(decision_tree.score(X, Y) * 100, 2)
 
 models = pd.DataFrame({
-    'Model': ['SVM', 'Logistic Regr.', 
-              'Perceptron','Decision Tree'],
+    'Model': ['SVM', 'Logistic Regr.','Perceptron','Decision Tree'],
     'Score': [acc_svc, acc_log, acc_perceptron, acc_decision_tree]})
 
 models = models.sort_values(by='Score', ascending=True)
@@ -70,4 +69,4 @@ plt.bar(np.arange(len(models)),models['Score'],alpha=0.5,tick_label = l,width = 
 plt.xlabel('Classifier')
 plt.ylabel('Accuracy')
 plt.title('Accruacy of classifiers trained on AGE')
-plt.savefig('plots/Accuracy_classifier.png')
+plt.savefig('plots/Accuracy_classifier.png',bbox_inches='tight')
