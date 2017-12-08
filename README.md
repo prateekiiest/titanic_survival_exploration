@@ -109,6 +109,8 @@ See CONTRIBUTING.md
 - [ ] [Coursera Lectures](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning)
 - [ ] [Standford Lectures](https://www.youtube.com/watch?v=UzxYlbK2c7E)
 - [ ] [Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
+- [ ] [Udacity Lectures (Intro to ML)](https://in.udacity.com/course/intro-to-machine-learning--ud120)
+- [ ] [Udacity Lectures (ML)](https://in.udacity.com/course/machine-learning--ud262)
 
 
 
