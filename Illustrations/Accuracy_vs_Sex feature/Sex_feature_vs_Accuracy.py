@@ -5,7 +5,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 binwidth=0.2
-train=pd.read_csv("/home/vishal/Desktop/train(1).csv")
+train=pd.read_csv("../../titanic_data.csv")
 train_data=train[['Sex','Survived']]
 d={"female":0,"male":1}
 try:
