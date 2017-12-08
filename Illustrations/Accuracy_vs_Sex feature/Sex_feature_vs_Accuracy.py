@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
+
 binwidth=0.2
 train=pd.read_csv("/home/vishal/Desktop/train(1).csv")
 train_data=train[['Sex','Survived']]
@@ -11,6 +12,7 @@ try:
     train_data['Sex']=train_data['Sex'].apply(lambda x:d[x])
 except KeyError:
     print("There are some NaN in the input")
+
 plt.hist(np.array(train_data.loc[train['Survived']==1,'Sex']),bins=[d['female'],d['female']+binwidth,d['male']-binwidth,d['male']])
 plt.title('Passengers Survived Histogram wrt Sex')
 plt.xlabel("Sex: 0 for female,1 for male")
