@@ -1,0 +1,27 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+binwidth=0.2
+train=pd.read("/home/vishal/Desktop/train(1).csv")
+d={"female":0,"male":1}
+try:
+    train['Sex']=train['Sex'].apply(lambda x:d[x])
+except:
+    print("There are some NaN in the input")
+plt.hist(train.loc[train['Survived']==1,'Sex'],bins=[d['female'],d['female']+binwidth,d['male']-binwidth,d['male']])
+plt.xlabel("Sex: 0 for female,1 for male")
+plt.ylabel("No of passengers Survived")
+plt.show()
+
+#Seperating the features and the labels
+X=train.drop('Survived',axix=1)
+Y=train['Survived']
+
+#Train by using Decision tree and random forests
+
+decision_tree=DecisionTreeClassifier()
+decision_tree.fit(X,Y)
+print("Accuracy of Decision Tree=",round(decision_tree.score(X,Y)*100,2))
+
