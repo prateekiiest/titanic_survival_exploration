@@ -1,7 +1,6 @@
 # Titanic_Survival_Exploration
 
-# Join Slack channel using this [link](https://join.slack.com/t/titanic-survival/shared_invite/enQtMjc1NDkyMzg1OTcyLTM0M2ZhOGE0YzA4MjQ0NmNjYzBiMTI5ZDUyZjJiMGVkYjdlMWNhOWNkMWU0YjA0NDI2MmNmYjk3MzU0MmM3N2I)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1098228.svg)](https://doi.org/10.5281/zenodo.1098228)
 
 <a href="https://github.com/prateekiiest/boston_housing"><img style="position: relative; top: 0; left: 0; border: 0;" src="https://68.media.tumblr.com/38ae897f20630ef88e6484dea00db3b3/tumblr_mm8fhitR3u1rwwvg9o1_500.gif" alt=" Fork this repo" data-canonical-></a>
 
