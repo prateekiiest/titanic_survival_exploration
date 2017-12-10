@@ -119,8 +119,3 @@ See CONTRIBUTING.md
 
 #### Happy Coding                                                                                           -- Prateek Chanda
 
-## Fork me on Github
-
-<a href="https://github.com/prateekiiest/titanic_survival_exploration"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://help.github.com/assets/images/site/fork-a-repo.gif" alt=" Fork this repo" data-canonical-></a>
-
-
