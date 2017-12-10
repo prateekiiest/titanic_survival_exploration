@@ -1,5 +1,6 @@
 # Titanic_Survival_Exploration
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c73bee6015bf485d8ce4184cbb135b03)](https://www.codacy.com/app/prateekkol21/titanic_survival_exploration?utm_source=github.com&utm_medium=referral&utm_content=prateekiiest/titanic_survival_exploration&utm_campaign=badger)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1098228.svg)](https://doi.org/10.5281/zenodo.1098228)
 
 <a href="https://github.com/prateekiiest/boston_housing"><img style="position: relative; top: 0; left: 0; border: 0;" src="https://68.media.tumblr.com/38ae897f20630ef88e6484dea00db3b3/tumblr_mm8fhitR3u1rwwvg9o1_500.gif" alt=" Fork this repo" data-canonical-></a>
