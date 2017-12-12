@@ -40,52 +40,17 @@ gt_test = combined.iloc[891:].drop(['PassengerId','SibSp','Parch'],axis = 1).gro
 
 
 def fillAges(row, grouped_median):
-        if row['Sex']=='female' and row['Pclass'] == 1:
-            if row['Title'] == 'Miss':
-                return grouped_median.loc['female', 1, 'Miss']['Age']
-            elif row['Title'] == 'Mrs':
-                return grouped_median.loc['female', 1, 'Mrs']['Age']
-            elif row['Title'] == 'Officer':
-                return grouped_median.loc['female', 1, 'Officer']['Age']
-            elif row['Title'] == 'Royalty':
-                return grouped_median.loc['female', 1, 'Royalty']['Age']
 
-        elif row['Sex']=='female' and row['Pclass'] == 2:
-            if row['Title'] == 'Miss':
-                return grouped_median.loc['female', 2, 'Miss']['Age']
-            elif row['Title'] == 'Mrs':
-                return grouped_median.loc['female', 2, 'Mrs']['Age']
+ Pclass = [1,2,3];
+ Sex = ['male','female'];
+ Title = ['Miss','Mrs','Officer','Royalty','Master','Mr'];
 
-        elif row['Sex']=='female' and row['Pclass'] == 3:
-            if row['Title'] == 'Miss':
-                return grouped_median.loc['female', 3, 'Miss']['Age']
-            elif row['Title'] == 'Mrs':
-                return grouped_median.loc['female', 3, 'Mrs']['Age']
-
-        elif row['Sex']=='male' and row['Pclass'] == 1:
-            if row['Title'] == 'Master':
-                return grouped_median.loc['male', 1, 'Master']['Age']
-            elif row['Title'] == 'Mr':
-                return grouped_median.loc['male', 1, 'Mr']['Age']
-            elif row['Title'] == 'Officer':
-                return grouped_median.loc['male', 1, 'Officer']['Age']
-            elif row['Title'] == 'Royalty':
-                return grouped_median.loc['male', 1, 'Royalty']['Age']
-
-        elif row['Sex']=='male' and row['Pclass'] == 2:
-            if row['Title'] == 'Master':
-                return grouped_median.loc['male', 2, 'Master']['Age']
-            elif row['Title'] == 'Mr':
-                return grouped_median.loc['male', 2, 'Mr']['Age']
-            elif row['Title'] == 'Officer':
-                return grouped_median.loc['male', 2, 'Officer']['Age']
-
-        elif row['Sex']=='male' and row['Pclass'] == 3:
-            if row['Title'] == 'Master':
-                return grouped_median.loc['male', 3, 'Master']['Age']
-            elif row['Title'] == 'Mr':
-                return grouped_median.loc['male', 3, 'Mr']['Age']
-    
+ for pclass in Pclass:
+  for sex in Sex:
+   for title in Title:
+    if(row['Sex']==sex and str(row['Pclass'])==str(pclass) and row['Title']==title):
+     return (int)(grouped_median.loc[row['Sex'],row['Pclass'],row['Title']]['Age'])
+ 
 combined.head(891).Age = combined.head(891).apply(lambda r : fillAges(r, gt_train) if np.isnan(r['Age']) 
                                                       else r['Age'], axis=1)
     
@@ -93,6 +58,8 @@ combined.iloc[891:].Age = combined.iloc[891:].apply(lambda r : fillAges(r, gt_te
                                                       else r['Age'], axis=1)
 
 combined['Fare'] = combined['Fare'].fillna(combined.Fare.mean())
+
+combined['Ticket'] = combined.Ticket.apply(lambda t:t[0] if not t[0].isdigit() else 'X')
 
 #Replace by mean for resulting Age nulls---effectively giving 3 outliers 
 #but it should be negligible compared to 1309 values
