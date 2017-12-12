@@ -109,12 +109,13 @@ The dataset used in this project is included as `titanic_data.csv`. This dataset
 See CONTRIBUTING.md
 
 ### Some Video Resources
-- [ ] [Coursera Lectures](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning)
+- [ ] [Coursera Lectures by Andrew Ng](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning) are not very mathematically heavy and provide a good introduction to ML algorithms.
 - [ ] [Standford Lectures](https://www.youtube.com/watch?v=UzxYlbK2c7E)
 - [ ] [Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
 - [ ] [Udacity Lectures (Intro to ML)](https://in.udacity.com/course/intro-to-machine-learning--ud120)
 - [ ] [Udacity Lectures (ML)](https://in.udacity.com/course/machine-learning--ud262)
-
+- [ ] [Sentdex Lectures on Introduction to ML](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
+- [ ] [Udemy Lectures on ML using Python as well as R](https://www.udemy.com/machinelearning/)
 
 
 #### Happy Coding                                                                                           -- Prateek Chanda
