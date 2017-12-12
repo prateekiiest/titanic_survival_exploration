@@ -1,5 +1,8 @@
 # Titanic_Survival_Exploration
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/c73bee6015bf485d8ce4184cbb135b03)](https://www.codacy.com/app/prateekkol21/titanic_survival_exploration?utm_source=github.com&utm_medium=referral&utm_content=prateekiiest/titanic_survival_exploration&utm_campaign=badger)
+[![Build status](https://ci.appveyor.com/api/projects/status/vps8mifg5qyqqu7g?svg=true)](https://ci.appveyor.com/project/prateekiiest/titanic-survival-exploration)
+[![Maintainability](https://api.codeclimate.com/v1/badges/4c2f2473dae6c52f64a1/maintainability)](https://codeclimate.com/github/prateekiiest/titanic_survival_exploration/maintainability)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1098228.svg)](https://doi.org/10.5281/zenodo.1098228)
 
 <a href="https://github.com/prateekiiest/boston_housing"><img style="position: relative; top: 0; left: 0; border: 0;" src="https://68.media.tumblr.com/38ae897f20630ef88e6484dea00db3b3/tumblr_mm8fhitR3u1rwwvg9o1_500.gif" alt=" Fork this repo" data-canonical-></a>
@@ -106,18 +109,14 @@ The dataset used in this project is included as `titanic_data.csv`. This dataset
 See CONTRIBUTING.md
 
 ### Some Video Resources
-- [ ] [Coursera Lectures](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning)
+- [ ] [Coursera Lectures by Andrew Ng](https://www.coursera.org/learn/machine-learning/lecture/zcAuT/welcome-to-machine-learning) are not very mathematically heavy and provide a good introduction to ML algorithms.
 - [ ] [Standford Lectures](https://www.youtube.com/watch?v=UzxYlbK2c7E)
 - [ ] [Unsupervised Learning](https://www.coursera.org/learn/machine-learning/lecture/olRZo/unsupervised-learning)
 - [ ] [Udacity Lectures (Intro to ML)](https://in.udacity.com/course/intro-to-machine-learning--ud120)
 - [ ] [Udacity Lectures (ML)](https://in.udacity.com/course/machine-learning--ud262)
-
+- [ ] [Sentdex Lectures on Introduction to ML](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
+- [ ] [Udemy Lectures on ML using Python as well as R](https://www.udemy.com/machinelearning/)
 
 
 #### Happy Coding                                                                                           -- Prateek Chanda
-
-## Fork me on Github
-
-<a href="https://github.com/prateekiiest/titanic_survival_exploration"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://help.github.com/assets/images/site/fork-a-repo.gif" alt=" Fork this repo" data-canonical-></a>
-
 
