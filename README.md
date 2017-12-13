@@ -116,6 +116,7 @@ See CONTRIBUTING.md
 - [ ] [Udacity Lectures (ML)](https://in.udacity.com/course/machine-learning--ud262)
 - [ ] [Sentdex Lectures on Introduction to ML](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
 - [ ] [Udemy Lectures on ML using Python as well as R](https://www.udemy.com/machinelearning/)
+- [ ] [Udemy Course on various Data science and Machine Learning Techniques](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/)
 
 
 #### Happy Coding                                                                                           -- Prateek Chanda
