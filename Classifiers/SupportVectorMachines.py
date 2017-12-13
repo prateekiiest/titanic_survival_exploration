@@ -6,8 +6,6 @@ Created on Wed Dec 13 11:48:15 2017
 """
 
 # Importing the libraries
-import numpy as np
-import matplotlib.pyplot as plt
 import pandas as pd
 
 # Importing the dataset
