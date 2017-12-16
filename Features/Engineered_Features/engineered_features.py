@@ -35,8 +35,11 @@ Title_Dictionary = {
                         }
 combined.Title = combined.Title.map(Title_Dictionary)
 
-gt_train = combined.head(891).drop(['PassengerId','SibSp','Parch'],axis = 1).groupby(['Sex','Pclass','Title']).median()
-gt_test = combined.iloc[891:].drop(['PassengerId','SibSp','Parch'],axis = 1).groupby(['Sex','Pclass','Title']).median()
+features_to_drop = ['PassengerId','SibSp','Parch']
+
+
+gt_train = combined.head(891).drop(features_to_drop,axis = 1).groupby(['Sex','Pclass','Title']).median()
+gt_test = combined.iloc[891:].drop(features_to_drop,axis = 1).groupby(['Sex','Pclass','Title']).median()
 
 
 def fillAges(row, grouped_median):
@@ -50,7 +53,7 @@ def fillAges(row, grouped_median):
    for title in Title:
     if(row['Sex']==sex and str(row['Pclass'])==str(pclass) and row['Title']==title):
      return (int)(grouped_median.loc[row['Sex'],row['Pclass'],row['Title']]['Age'])
- 
+
 combined.head(891).Age = combined.head(891).apply(lambda r : fillAges(r, gt_train) if np.isnan(r['Age']) 
                                                       else r['Age'], axis=1)
     
