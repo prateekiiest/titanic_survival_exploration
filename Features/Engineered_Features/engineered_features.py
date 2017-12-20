@@ -45,15 +45,12 @@ gt_test = combined.iloc[891:].drop(features_to_drop,axis = 1).groupby(['Sex','Pc
 def fillAges(row, grouped_median):
  return (grouped_median.loc[row['Sex'],row['Pclass'],row['Title']]['Age']) 
 
-def fillAge(combined,code,median):
-	if (code == 'train'):
-		combined.head(891).Age = combined.head(891).apply(lambda r : fillAges(r, median) if np.isnan(r['Age']) 
-	                                                      else r['Age'], axis=1)
-	else:
-		combined.iloc[891:].Age = combined.iloc[891:].apply(lambda r : fillAges(r, median) if np.isnan(r['Age']) 
-		                                                      else r['Age'], axis=1)
-fillAge(combined,'train',gt_train)
-fillAge(combined,'test',gt_test)
+
+combined.head(891).Age = combined.head(891).apply(lambda r : fillAges(r, gt_train) if np.isnan(r['Age']) 
+                                                      else r['Age'], axis=1)
+    
+combined.iloc[891:].Age = combined.iloc[891:].apply(lambda r : fillAges(r, gt_test) if np.isnan(r['Age']) 
+                                                      else r['Age'], axis=1)
 
 combined['Fare'] = combined['Fare'].fillna(combined.Fare.mean())
 
