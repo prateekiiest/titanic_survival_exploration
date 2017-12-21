@@ -117,7 +117,12 @@ See CONTRIBUTING.md
 - [ ] [Sentdex Lectures on Introduction to ML](https://www.youtube.com/watch?v=OGxgnH8y2NM&list=PLQVvvaa0QuDfKTOs3Keq_kaG2P55YRn5v)
 - [ ] [Udemy Lectures on ML using Python as well as R](https://www.udemy.com/machinelearning/)
 - [ ] [Udemy Course on various Data science and Machine Learning Techniques](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/)
+- [ ] Machine Learning A-Z™: Hands-On Python & R In Data Science (https://www.udemy.com/machinelearning/)
+- [ ] EdX: Learning From Data (Introductory Machine Learning) (https://www.edx.org/course/learning-data-introductory-machine-caltechx-cs1156x-0)
 
+### Online Reading Material
+- [ ] Advanced Introduction to Machine Learning (http://www.cs.cmu.edu/~epxing/Class/10715/lecture.html)
+- [ ] CS229: Machine Learning (https://cs229.stanford.edu/)
 
 #### Happy Coding                                                                                           -- Prateek Chanda
 
